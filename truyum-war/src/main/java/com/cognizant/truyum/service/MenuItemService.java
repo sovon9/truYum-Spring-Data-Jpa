@@ -15,9 +15,6 @@ import com.cognizant.truyum.repository.MenuItemRepository;
 
 @Service
 public class MenuItemService {
-
-//	@Autowired
-//	public MenuItemDao menuItemDao;
 	
 	@Autowired
 	public MenuItemRepository menuItemRepository;
