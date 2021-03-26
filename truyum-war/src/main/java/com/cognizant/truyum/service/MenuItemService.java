@@ -19,7 +19,7 @@ public class MenuItemService {
 	@Autowired
 	public MenuItemRepository menuItemRepository;
 	
-	private Logger LOGGER=LoggerFactory.getLogger(MenuItemService.class);
+	private static final Logger LOGGER=LoggerFactory.getLogger(MenuItemService.class);
 	
 	@Transactional
 	public List<MenuItem> getMenuItemListAdmin()
