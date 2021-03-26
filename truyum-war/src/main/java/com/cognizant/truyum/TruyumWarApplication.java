@@ -14,7 +14,7 @@ public class TruyumWarApplication {
 
 	public static MenuItemService menuItemService;
 	
-	private Logger LOGGER=LoggerFactory.getLogger(MenuItemService.class);
+	private static final Logger LOGGER=LoggerFactory.getLogger(MenuItemService.class);
 	
 	/**
 	 *   get Admin menuitem List
